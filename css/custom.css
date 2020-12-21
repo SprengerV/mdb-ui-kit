@@ -1,6 +1,16 @@
 body{
-    background-color: #dee5f5;
+    background-color: #bebebe;
+}
+.carousel-caption {
+    position: static;
+    y: -500;
 }
 .icon-color {
     background-color:#94536d !important;
+}
+#qr {
+    margin-top: -75px;
+}
+#support {
+    margin-top: 15vh;
 }
