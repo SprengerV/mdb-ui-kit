@@ -14,8 +14,11 @@ body{
     background-origin: inherit;
 }
 #qr {
-    margin-top: -75px;
-}
+    padding: 2%;
+    background-color: rgba(0, 0, 0, .4);
+    margin-top: -8%;
+    }
 #support {
     margin-top: 15vh;
+    margin-bottom: 5vh;
 }
