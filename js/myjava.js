@@ -30,6 +30,7 @@ var doge = {
     qr: 'img/dogeqr.bmp',
     html: document.getElementById('doge')
 }
+var coins = [btc, eth, xrp, ltc, doge]
 
 const qr = document.getElementById('qr');
 const currency = document.getElementById('currency');
@@ -38,18 +39,16 @@ const addr = document.getElementById('addr');
 function resetNav(html){
     html.className = 'nav-link';
 }
-function resetAll(){
-    resetNav(btc.html);
-    resetNav(eth.html);
-    resetNav(xrp.html);
-    resetNav(ltc.html);
-    resetNav(doge.html);
+function resetAll(coins){
+    for (i=0; i<coins.length; i++){
+        resetNav(coins[i].html);
+    }
 }
 function activeNav(html){
     html.className = 'nav-link active';
 }
 function setNav(html){
-    resetAll();
+    resetAll(coins);
     activeNav(html);
 }
 
