@@ -18,7 +18,16 @@ body{
     background-color: rgba(0, 0, 0, .4);
     margin-top: -8%;
     }
+#s {
+    font-family: 'Shadows Into Light', cursive;
+}
 #support {
     margin-top: 15vh;
     margin-bottom: 5vh;
+}
+#v {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
 }
